@@ -11,11 +11,6 @@ terraform init
 ```
 
 To deploy the whole infrastructure on AWS consisting of:
-
-* RDS and its dependencies
-* WordPress over Kubernetes via Minikube
-* Expose the WordPress pod
-
 ```
 terraform apply --auto-approve
 ```
